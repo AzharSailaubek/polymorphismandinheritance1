@@ -1,12 +1,12 @@
-public class UniversityStudent extends Person {
+public class Student extends Person {
 
     private double gpa;
 
-    public UniversityStudent() {
+    public Student() {
         super();
     }
 
-    public UniversityStudent(String name, String surname, double gpa) {
+    public Student(String name, String surname, double gpa) {
         super(name, surname);
         this.gpa = gpa;
     }
