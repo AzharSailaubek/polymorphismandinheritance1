@@ -7,8 +7,8 @@ public class Main {
 
         ArrayList<Person> list = new ArrayList<>();
 
-        list.add(new Employee("John", "Lennon", "Singer", 27045.78));
-        list.add(new Employee("George", "Harrison", "Guitarist", 50000));
+        list.add(new Employee("Akerke", "Bekbergen", "Singer", 27045.78));
+        list.add(new Employee("Gulnaz", "Zaiken", "Guitarist", 50000));
 
         list.addAll(StudentData.getStudents());
 
